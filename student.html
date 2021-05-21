@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/logo.png"/>
+    <title>студент Chem-Mastery</title>
+</head>
+<body class="page">
+    <div class="layout">
+        <header class="header">
+            <div class="title-container">
+                <div class="logo-container">
+                    <img src="imgs/logo.png" alt="logo" class="logo">
+                </div>
+                <div class='title'>Chem-Mastery</div>
+            </div>
+            <div class="person">
+                Вы вошли как ученик
+            </div>
+        </header>
+        <div class='main'>
+            <div class="menu">
+                <button class="menu-btn" id="work-btn">Выполнить работу</button>
+                <button class="menu-btn" id="pastworks-btn">Прошлые работы</button>
+                <button class="menu-btn" id="diag-btn">Диагностическая работа</button>
+                <button class="menu-btn" id="ind-btn">Самостоятельная работа</button>
+                <button class="menu-btn" id="homework-btn">Домашняя работа</button>
+                <button class="menu-btn" id="practice-btn">Практическая работа</button>
+            </div>
+            <div class="workspace">
+                <div id="work">
+                    <ul>
+                        <li>
+                            <a href="testing.html">Пересдать работу 1</a>
+                        </li>
+                        <li>
+                            <a href="testing.html">Начать выполнение работы 2</a>
+                        </li>
+                        <li>
+                            <a href="testing.html">Начать выполнение работы 3</a>
+                        </li>
+                        <li>
+                            <a href="testing.html">Начать выполнение работы 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="pastworks">
+                    <div class="pastworks-container">
+                        <div class="stud-works">
+                            <h1>Прошлые работы</h1>
+                            <a href="studwork.html">Пробник 1</a>
+                            <a href="studwork.html">Пробник 2</a>
+                            <a href="studwork.html">Пробник 3</a>
+                            <a href="studwork.html">Пробник 4</a>
+                            </div>
+                            <img class ="stats" src="imgs/stud-stat.jpg">
+                    </div>
+                </div>
+                <div id="diag">
+                    <h1>Диагностическая работа</h1>
+                    <button onclick="window.location.href='testing.html';"> Начать диагностическую работу</button>
+                </div>
+                <div id="ind">
+                    <h3>Самостоятельная работа</h3>
+                    <img class="text-img" src="imgs/1.jpg">
+                </div>
+                <div id="homework">
+                    <h3>Домашняя работа</h3>
+                    <img class="text-img" src="imgs/1h.jpg">
+                    <img class="text-img" src="imgs/2h.jpg">
+                    <img class="text-img" src="imgs/3h.jpg">
+                </div>
+                <div id="practice">
+                    <h3>Практическая работа</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YtJzRulL_jE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <img class="text-img" src="imgs/1p.jpg">
+                    <img class="text-img" src="imgs/2p.jpg">
+                    <img class="text-img" src="imgs/3p.jpg">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ukKOJ8RbFwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <img class="text-img" src="imgs/4p.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="studscript.js"></script>
+</body>
+</html>
